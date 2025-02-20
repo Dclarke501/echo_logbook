@@ -1,1 +1,15 @@
 node_modules
+# Ignore the virtual environment
+myenv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore IDE/editor-specific files (if applicable)
+.vscode/
+.idea/
